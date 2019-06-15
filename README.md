@@ -3,9 +3,9 @@ OS image repository for Raspberry Pi3.
 
 # Binary type
 
-|No.|Type|Download script|
-|:--|:--|:--|
-|1|aarch64 (64 bit)|./Debian/aarch64/download.sh|
+|No.|Type|OS|Download script|
+|:--|:--|:--|:--|
+|1|aarch64 (64 bit)|Debian (Stretch)|./Debian/aarch64/download.sh|
 
 # Usage
 ```bash
