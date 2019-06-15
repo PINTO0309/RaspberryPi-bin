@@ -6,6 +6,7 @@ OS image repository for Raspberry Pi3.
 |No.|Type|OS|Download script|
 |:--|:--|:--|:--|
 |1|aarch64 (64 bit)|Debian (Stretch)|./Debian/Stretch/aarch64/download.sh|
+|2|aarch64 (64 bit)|Debian (Buster)|./Debian/Buster/aarch64/download.sh|
 
 # 2. Usage
 ```bash
