@@ -15,6 +15,11 @@ $ ./Debian/Stretch/aarch64/download.sh
 ```
 
 # 3. Build procedure example
+## 3-1. Environment
+- Ubuntu 16.04
+- RaspberryPi3 model B/B+
+
+## 3-2. Command scripts
 ```bash
 $ sudo apt update
 $ sudo apt install -y debootstrap debian-archive-keyring qemu-user-static binfmt-support dosfstools rsync bmap-tools whois git bc psmisc dbus sudo git crossbuild-essential-arm64
