@@ -21,7 +21,7 @@ $ sudo apt install -y debootstrap debian-archive-keyring qemu-user-static binfmt
 $ git clone https://github.com/drtyhlpr/rpi23-gen-image.git
 $ cd rpi23-gen-image
 ```
-```bash
+```
 $ sudo su
 
 # RPI_MODEL=3 \
