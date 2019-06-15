@@ -22,7 +22,9 @@ $ ./Debian/Stretch/aarch64/download.sh
 ## 3-2. Command scripts
 ```bash
 $ sudo apt update
-$ sudo apt install -y debootstrap debian-archive-keyring qemu-user-static binfmt-support dosfstools rsync bmap-tools whois git bc psmisc dbus sudo git crossbuild-essential-arm64
+$ sudo apt install -y debootstrap debian-archive-keyring \
+qemu-user-static binfmt-support dosfstools rsync bmap-tools \
+whois git bc psmisc dbus sudo git crossbuild-essential-arm64
 $ git clone https://github.com/drtyhlpr/rpi23-gen-image.git
 $ cd rpi23-gen-image
 ```
